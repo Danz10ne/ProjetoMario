@@ -1,0 +1,55 @@
+@media ( max-width: 1200px){
+    body {
+        background-color: #f44336;
+    }
+    .fundo-video {
+        display: none;
+    }
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+    .container .mario {
+        max-width: 50%;
+    }
+    .container .info{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+   }
+   .container .sinopse {
+       color: white;
+       text-align:  center;
+
+   }
+}
+
+@media (max-width:500px) {
+    .header{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container .imagem-titulo {
+        max-width: 75%;
+    }
+    
+    .modal .fecharmodal{
+        width: 30px;
+        line-height:  30px;
+    }
+
+    .modal #video {
+        width: 300px;
+        height: 169px;
+    }
+}
+
+@media (max-width: 376px ) {
+    .modal #video {
+        width:  250px;
+        height: 140px;
+    }
+}
